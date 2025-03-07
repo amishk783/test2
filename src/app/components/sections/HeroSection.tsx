@@ -58,7 +58,7 @@ const HeroSection = () => {
             height={500}
           ></Image>
         </div>
-        <div className="w-full  flex items-center justify-center ">
+        <div className="w-full h-[90%]  flex items-center justify-center ">
           <Header navLinks={navLinks} logo="/logo.png" buttonText="Log in" />
         </div>
         <div className="w-full h-full flex items-center justify-center">

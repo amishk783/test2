@@ -29,7 +29,7 @@ export const Header: React.FC<HeaderProps> = ({
     setIsMobileMenuOpen((prev) => !prev);
   };
   return (
-    <motion.div className="flex items-center justify-between px-2 py-2 bg-black gap-10 z-50 sticky top-10 w-full xl:w-[932px] h-16  rounded-full">
+    <motion.div className="flex items-center justify-between px-2 py-2 bg-black gap-10 z-50 sticky top-10 w-[95%] xl:w-[932px] h-16  rounded-full">
       <div className="flex relative items-center justify-between w-full py-1 ">
         <div className=" xl:hidden w-64 h-full absolute bg-gradient-to-r from-white/40 -z-10 -left-0 rounded-full  opacity-50   "></div>
         <div className=" hidden xl:block w-24 h-16 absolute bg-white/70 -z-10 -left-4 rounded-full blur-xl opacity-50"></div>
