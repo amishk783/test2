@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({
   buttonText,
   className,
 }) => {
-  console.log("🚀 ~ className:", className)
+  console.log("🚀 ~ className:", className);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   const handleMenuClick = () => {
@@ -59,7 +59,7 @@ export const Header: React.FC<HeaderProps> = ({
           onClick={handleMenuClick}
           className={cn(
             "flex flex-col sm:hidden items-center justify-center gap-2  bg-black w-[44px] h-[44px] aspect-square rounded-full ",
-            isMobileMenuOpen ? " bg-pink-700" : " bg-pink-700"
+            isMobileMenuOpen ? " bg-primary" : " bg-primary"
           )}
         >
           <motion.div
@@ -92,7 +92,7 @@ export const Header: React.FC<HeaderProps> = ({
         initial={{ height: 0, opacity: 0 }}
         animate={
           isMobileMenuOpen
-            ? { height: "90vh", opacity: 1 }
+            ? { height: "80vh", opacity: 1 }
             : { height: 0, opacity: 0 }
         }
         transition={{
